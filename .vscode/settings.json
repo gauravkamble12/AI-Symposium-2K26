@@ -1,0 +1,6 @@
+{
+  "python.defaultInterpreterPath": "/workspaces/AI-Symposium-2K26/.venv/bin/python",
+  "python.analysis.extraPaths": [
+    "/workspaces/AI-Symposium-2K26/.venv/lib/python3.12/site-packages"
+  ]
+}
