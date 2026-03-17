@@ -65,6 +65,22 @@ If the API is not running on `http://localhost:8000`, set `VITE_API_BASE` before
 
 By default, the frontend now proxies `/api` and `/ws` through the Vite dev server, which avoids `localhost:8000` issues when the app is opened from a forwarded dev-container port.
 
+## One-Command Collaborator Setup
+
+For Linux/macOS collaborators, run:
+
+```bash
+./scripts/bootstrap.sh
+./scripts/run-dev.sh
+```
+
+This will:
+
+- Create `.venv` if missing
+- Install backend dependencies
+- Install frontend dependencies
+- Launch backend (`:8000`) and frontend (`:5173`) together
+
 ## API Surface
 
 - `GET /api/health`
